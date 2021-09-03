@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+     <form method="GET">
+        <label>
+            <input type="checkbox" name="comidas" id="desayuno" checked>desayuno
+        </label>
+        <label>
+
+            <input type="checkbox" name="comidas" id="merienda">merienda
+        </label>
+        <label>
+
+            <input type="checkbox" name="comidas" id="cena">cena
+        </label>
+
+
+
+        <br>
+        <br>
+
+
+            <h3>Elegi tu programa</h3>
+        <label>
+            <input type="radio" name="valor1" id="valor1" value="anual" checked> Anual
+        </label>
+        <label>
+        <input type="radio" name="valor2" id="valor2" value="mensual"> Mensual
+    </label>
+    <label>
+
+        <input type="radio" name="valor3" id="valor3" value="semanal"> Semanal
+    </label>
+    <h3>Mascotas que albergamos</h3>
+    <select name="animales" id="animales">
+        <option value="animal1">perro</option>
+        <option value="animal2" selected>gato</option>
+        <option value="animal3">jabalí</option>
+        <option value="animal4">loros</option>
+        <option value="animal5">comadreja</option>
+
+    </select>
+
+    <h3>Mascotas que elegis</h3>
+    <select name="animales" id="animales" multiple>
+        <option value="animal1">perro</option>
+        <option value="animal2" selected>gato</option>
+        <option value="animal3">jabalí</option>
+        <option value="animal4">loros</option>
+        <option value="animal5">comadreja</option>
+        
+    </select>
+
+
+    <br>
+
+    <h3>subí tu foto</h3>
+    <input type="file" name="" id="foto" accept="image/*">
+
+    <h3>ahora envía tu foto</h3>
+    <input type="submit" name="submit" value="Enviar">
+
+
+     </form>
+    
+</body>
+</html>
